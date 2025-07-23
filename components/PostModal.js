@@ -41,12 +41,14 @@ const PostModal = ({ visible, onClose }) => {
         <Text style={styles.header}>Crear nuevo libro</Text>
         <TextInput
           placeholder="Título"
+          placeholderTextColor="#888"
           value={title}
           onChangeText={setTitle}
           style={styles.input}
         />
         <TextInput
           placeholder="Contenido"
+          placeholderTextColor="#888"
           value={body}
           onChangeText={setBody}
           multiline
@@ -57,7 +59,7 @@ const PostModal = ({ visible, onClose }) => {
         <Picker
           selectedValue={userId}
           onValueChange={(value) => setUserId(value)}
-          style={styles.input}
+          style={[styles.input, { color: '#000' }]}
         >
           {[1, 2, 3, 4, 5].map(id => (
             <Picker.Item key={id} label={`${id}`} value={id} />

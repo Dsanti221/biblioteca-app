@@ -63,6 +63,7 @@ const HomeScreen = ({ navigation }) => {
       <TextInput
         style={styles.input}
         placeholder="Filtrar por título"
+        placeholderTextColor="#888"
         value={filtro}
         onChangeText={text => {
           setFiltro(text);
@@ -74,7 +75,7 @@ const HomeScreen = ({ navigation }) => {
         <Text>Mostrar por página:</Text>
         <Picker
           selectedValue={porPagina}
-          style={{ width: 100 }}
+          style={{ width: 100 , color: '#000'}}
           onValueChange={(value) => {
             setPorPagina(value);
             setPaginaActual(1);
