@@ -12,7 +12,6 @@ Aplicación móvil desarrollada con React Native (Expo) como prueba técnica. Pe
 - ✅ Vista de detalle de cada libro  
 - ✅ Creación de nuevos libros (modal con formulario)  
 - ✅ Pantalla de carga personalizada (SplashScreen)  
-- ✅ Estilos organizados y código limpio  
 
 ---
 
@@ -58,7 +57,9 @@ npm install
 npx expo start
 ```
 
-5. Abre la app con Expo Go desde tu celular escaneando el código QR.
+5. Luego instala Expo Go, posteriormente desde tu celular escaneando el código QR.
+
+6. Si prefieres instala el apk que se encuentra en la carpeta 'Apk'.
 
 ---
 
