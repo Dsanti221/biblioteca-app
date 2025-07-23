@@ -19,7 +19,7 @@ const PostModal = ({ visible, onClose }) => {
       await createPost({ title, body, userId });
       Alert.alert('✅ Libro creado', 'El libro ha sido creado exitosamente.');
 
-      //Limpiar los campos
+      //Limpia los campos
       setTitle('');
       setBody('');
       setUserId(1);
